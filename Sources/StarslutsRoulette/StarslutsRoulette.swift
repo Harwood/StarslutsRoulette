@@ -2,7 +2,9 @@ import CSV
 import SwiftSoup
 
 public struct StarslutsRoulette {
-  """https://www.starbucks.com/menu/catalog/downloadnutrition?all"""
+  /**
+    https://www.starbucks.com/menu/catalog/downloadnutrition?all
+    */
   fileprivate var drinks: [Drink] 
 
   public init() {
